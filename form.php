@@ -24,6 +24,11 @@
     <label for="question">質問</label>
     <input type="text" id="question" name="question"><br><br>
     <label for="gender">性別</label>
+    <select id="gender" name="gender" required>
+        <option value="" disabled selected>選択してください</option>
+        <option value="male">男性</option>
+        <option value="female">女性</option>
+    </select>
     <input type="text" id="gender" name="gender"><br><br>       
     <button type="submit">送信</button>
 </form>
