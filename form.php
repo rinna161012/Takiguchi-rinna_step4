@@ -17,8 +17,8 @@
     <input type="text" id="age" name="age"><br><br>
     <label for="telephonenumber">電話番号</label>
     <input type="text" id="telephonenumber" name="telephonenumber"><br><br>
-    <label for="mailaddress">メールアドレス</label>
-    <input type="text" id="mailaddress" name="mailaddress"><br><br>
+    <label for="email">メールアドレス</label>
+    <input type="text" id="email" name="email"><br><br>
     <label for="address">住所</label>
     <input type="text" id="address" name="address"><br><br>
     <label for="question">質問</label>
