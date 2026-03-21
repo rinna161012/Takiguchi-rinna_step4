@@ -19,8 +19,8 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     $gender = $_POST["gender"];
 
 }
-if(!preg_match("/^[ぁ-んァ-ン一-鿿]+$/u", $name)){
-    echo "<p>名前はひらがな、カタカナ、漢字のみで入力してください</p>";
+if (!preg_match("/\A[一-龠ぁ-んァ-ヶーa-zA-Z]+\z/u", $string)) {
+    echo "<p>名前はひらがな、カタカナ、漢字、英字のみで入力してください</p>";
 }
 if(!preg_match("/^[0-9]+$/", $age) || $age < 0 || $age > 150 || !is_numeric($age)){
     echo "<p>年齢は0〜150の間で入力してください</p>";
@@ -31,7 +31,7 @@ if(!preg_match("/^[0-9\-]+$/", $phone)){
 if(!preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $email)){
     echo "<p>メールアドレスの形式が正しくありません</p>";
 }   
-if(!preg_match("/^[a-zA-Z]+$/", $address)){
+if (!preg_match("/\A[一-龠ぁ-んァ-ヶーa-zA-Z]+\z/u", $string)) {
     echo "<p>住所は文字で入力してください</p>";
 }
 if(!preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/", $question)){
