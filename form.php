@@ -32,6 +32,6 @@
     <input type="text" id="gender" name="gender"><br><br>       
     <button type="submit">送信</button>
 </form>
-</body>
 </div>
+</body>
 </html>
