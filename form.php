@@ -10,7 +10,7 @@
 <h1>フォーム入力</h1>
 <div class="container">     
 
-<form action="form.php" method="post">
+<form action="conform.php" method="post">
     <label for="name">名前</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="age">年齢</label>
