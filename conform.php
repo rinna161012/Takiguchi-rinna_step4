@@ -12,7 +12,7 @@
 if($_SERVER["REQUEST_METHOD"] === "POST"){
     $name = $_POST["name"];
     $age = $_POST["age"];
-    $phone = $_POST["phone"];
+    $phone = $_POST["telephonenumber"];
     $email = $_POST["email"];
     $address = $_POST["address"];
     $question = $_POST["question"];
