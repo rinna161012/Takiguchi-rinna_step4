@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheat" href="style_conform.css">
+    <link rel="stylesheet" href="style_conform.css">
     <title>入力内容確認</title>
 
 </head>
